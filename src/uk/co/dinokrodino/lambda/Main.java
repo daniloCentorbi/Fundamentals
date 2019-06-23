@@ -93,6 +93,9 @@ public class Main {
         String upperName = upperCaseName.apply(list.get(0));
         System.out.println(concatAge.apply(upperName,list.get(0)) + " Printed from BIFunction");
 
+        //TODO
+        //some lambda stream example
+
     }
 
     public final static String doStringStuff(UpperConcat uc, String s1, String s2) {
